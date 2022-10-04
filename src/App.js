@@ -5,6 +5,7 @@ import HomeBanner from './components/HomeBanner';
 import Partners from './components/Partners';
 import EndPoints from './components/EndPoints';
 import Active from './components/Active';
+import Facts from './components/Facts';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Partners />
         <EndPoints />
         <Active />
+        <Facts />
       </div>
     </div>
   );
