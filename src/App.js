@@ -6,6 +6,7 @@ import Partners from './components/Partners';
 import EndPoints from './components/EndPoints';
 import Active from './components/Active';
 import Facts from './components/Facts';
+import Customers from './components/Customers';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <EndPoints />
         <Active />
         <Facts />
+        <Customers />
       </div>
     </div>
   );
