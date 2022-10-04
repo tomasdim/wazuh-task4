@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import SubNavbar from './components/SubNavbar';
 import HomeBanner from './components/HomeBanner';
 import Partners from './components/Partners';
+import EndPoints from './components/EndPoints';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <HomeBanner />
         <Partners />
+        <EndPoints />
       </div>
     </div>
   );
