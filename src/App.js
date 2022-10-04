@@ -4,6 +4,7 @@ import SubNavbar from './components/SubNavbar';
 import HomeBanner from './components/HomeBanner';
 import Partners from './components/Partners';
 import EndPoints from './components/EndPoints';
+import Active from './components/Active';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <HomeBanner />
         <Partners />
         <EndPoints />
+        <Active />
       </div>
     </div>
   );

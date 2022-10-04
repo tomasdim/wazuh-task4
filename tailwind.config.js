@@ -20,6 +20,8 @@ module.exports = {
       },
       backgroundImage: {
         'home-slide': "url('/public/assets/Home-slide-BG.png')",
+        storage: "url('/public/assets/XDR.png')",
+        cloud: "url('/public/assets/Cloud.png')",
       },
     },
   },

@@ -38,7 +38,7 @@ const DataEndPoints = [
 
 const EndPoints = () => {
   return (
-    <div className='w-full font-manrope text-sm flex justify-center items-center text-center flex-col '>
+    <div className='w-full font-manrope text-sm flex justify-center items-center text-center flex-col mt-16'>
       <div className='flex flex-col justify-around'>
         <div className='pb-3 text-2xl font-semibold'>
           <h1>Endpoint & Cloud Workload Protection</h1>
@@ -52,7 +52,7 @@ const EndPoints = () => {
           on-premise data centers.
         </h2>
       </div>
-      <div className='mx-8 flex gap-10'>
+      <div className='mx-8 flex gap-10 mt-8 mb-16'>
         {DataEndPoints.map((data) => (
           <SingleEndPoint
             image={data.image}
