@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/wazuh-task4/static/css/main.6c5399c4.css",
-    "main.js": "/wazuh-task4/static/js/main.cf11fb81.js",
+    "main.js": "/wazuh-task4/static/js/main.3a3f111e.js",
     "static/media/XDR.png": "/wazuh-task4/static/media/XDR.c530e2059082db43bc5d.png",
     "static/media/Cloud.png": "/wazuh-task4/static/media/Cloud.83826edeeb3aebc2b040.png",
     "static/media/Home-slide-BG.png": "/wazuh-task4/static/media/Home-slide-BG.547019438987b68d7cd7.png",
+    "static/media/wazuh-log.svg": "/wazuh-task4/static/media/wazuh-log.c6ec87f7b4e9fb44ecf335e97d788905.svg",
+    "static/media/wazuh-log2.svg": "/wazuh-task4/static/media/wazuh-log2.6e8658aaccf1e6436fe3871bb0e5b983.svg",
     "index.html": "/wazuh-task4/index.html",
     "main.6c5399c4.css.map": "/wazuh-task4/static/css/main.6c5399c4.css.map",
-    "main.cf11fb81.js.map": "/wazuh-task4/static/js/main.cf11fb81.js.map"
+    "main.3a3f111e.js.map": "/wazuh-task4/static/js/main.3a3f111e.js.map"
   },
   "entrypoints": [
     "static/css/main.6c5399c4.css",
-    "static/js/main.cf11fb81.js"
+    "static/js/main.3a3f111e.js"
   ]
 }
