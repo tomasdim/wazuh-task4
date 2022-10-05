@@ -9,7 +9,9 @@ export default function Customers() {
     <div className=' mb-24'>
       <div className='w-full'>
         <div className='flex justify-center font-medium font-manrope text-3xl text-Primary  pb-12 pt-16'>
-          <h1>What our customers say about us</h1>
+          <h1 className=' mx-4 text-center mt-14 sm:mt-0'>
+            What our customers say about us
+          </h1>
         </div>
       </div>
       <Swiper

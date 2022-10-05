@@ -2,10 +2,10 @@ import React from 'react';
 
 const Active = () => {
   return (
-    <div className='w-full h-[700px] pb-[100%] sm:pb-0'>
+    <div className='w-full h-[900px] mb-56 sm:mb-0 sm:h-[700px] pb-[100%] sm:pb-0'>
       <div className='sm:h-1/2 h-full w-full flex flex-col sm:flex-row'>
         <div className='font-manrope flex flex-col justify-center items-center text-black h-full w-full sm:w-1/2 bg-gradient-to-bl from-LightestShade to-white'>
-          <div className='w-[70%] h-1/2 flex flex-col justify-around text-left ml-36'>
+          <div className='w-[70%] h-1/2 flex flex-col justify-around text-left sm:ml-36'>
             <h1 className=' font-semibold text-2xl'>Active XDR protection</h1>
             <h1 className=' font-semibold text-2xl'>from modern threats</h1>
             <h2 className='text-sm'>
@@ -18,7 +18,7 @@ const Active = () => {
         <div className='bg-storage w-full sm:w-1/2 h-full bg-center bg-no-repeat bg-cover'></div>
       </div>
       <div className='sm:h-1/2 h-full w-full flex sm:flex-row flex-col'>
-        <div className='bg-cloud hidden sm:block w-full sm:w-1/2 h-full bg-center bg-no-repeat bg-cover'></div>
+        <div className='bg-cloud w-full sm:w-1/2 h-full bg-center bg-no-repeat bg-cover'></div>
         <div className='font-manrope bg-gradient-to-bl from-LightestShade to-white flex flex-col justify-center items-center h-full w-full sm:w-1/2'>
           <div className='w-[70%] h-1/2 flex flex-col justify-around text-left'>
             <h1 className='font-semibold text-2xl'>
