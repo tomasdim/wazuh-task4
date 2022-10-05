@@ -7,6 +7,7 @@ import EndPoints from './components/EndPoints';
 import Active from './components/Active';
 import Facts from './components/Facts';
 import Customers from './components/Customers';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Active />
         <Facts />
         <Customers />
+        <Footer />
       </div>
     </div>
   );
