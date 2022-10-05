@@ -6,11 +6,11 @@ import { MdPeopleAlt } from 'react-icons/md';
 
 const Footer = () => {
   return (
-    <div className='bg-black text-white w-full h-[350px]'>
-      <div className='h-[40%] pl-[168px] pt-16'>
+    <div className='bg-black text-white w-full sm:h-[350px]'>
+      <div className='h-[40%] pl-5 sm:pl-[168px] pt-16'>
         <img src='/assets/wazuh-log2.svg'></img>
       </div>
-      <div className='h-2/5 pb-5 border-b border-b-gray-500 flex justify-center'>
+      <div className='h-2/5 pb-5 border-b border-b-gray-500 flex flex-col pl-5 sm:pl-0 pt-4 sm:pt-0 sm:flex-row justify-center'>
         <div className='flex flex-col w-[15%] h-4/5 justify-around'>
           <span>
             <a className='font-manrope text-white font-bold'>PLATAFORM</a>
@@ -90,12 +90,12 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className='h-auto pt-5 flex justify-around font-manrope text-xs items-center '>
-        <div>
-          <span className='pr-8 border-r border-r-white'>
+      <div className='h-auto pt-5 flex flex-col sm:flex-row justify-around font-manrope text-xs items-center '>
+        <div className='flex flex-col sm:block'>
+          <span className='pl-8 sm:pr-8 sm:border-r border-r-white'>
             © 2022 Wazuh, Inc.
           </span>
-          <span className='pl-8 pr-8 border-r border-r-white'>
+          <span className='pl-8 sm:pr-8 sm:border-r border-r-white'>
             <a className='hover:cursor-pointer hover:text-Primary'>Privacy</a>
           </span>
           <span className='pl-8'>
@@ -104,7 +104,7 @@ const Footer = () => {
             </a>
           </span>
         </div>
-        <div className='w-1/5 h-7 flex justify-around items-center'>
+        <div className='w-1/5 gap-3 sm:gap-0 sm:h-7 flex justify-around items-center'>
           <span>
             <a>
               <AiOutlineTwitter className='text-white w-5 h-11 hover:cursor-pointer hover:text-Primary' />

@@ -26,10 +26,10 @@ export default function Customers() {
         <SwiperSlide>
           <div className=' flex justify-center justify-items-center items-center'>
             <div className=' font-manrope flex flex-col justify-center items-center'>
-              <div className='rou rounded-2xl w-4/5 bg-Primary p-28'>
+              <div className='rounded-2xl w-[90%] sm:w-4/5 bg-Primary p-8 sm:p-28'>
                 <div>
                   <img
-                    className='absolute right-80 bottom-24'
+                    className='absolute hidden sm:block right-80 bottom-24'
                     src='/assets/double-quotes.png'
                   />
                   <img src='/assets/groupon-white.png' />
@@ -50,6 +50,32 @@ export default function Customers() {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className=' flex justify-center justify-items-center items-center'>
+            <div className=' font-manrope flex flex-col justify-center items-center'>
+              <div className='rounded-2xl w-[90%] sm:w-4/5 bg-Primary p-8 sm:p-28'>
+                <div className='flex justify-center sm:block sm:justify-start'>
+                  <img
+                    className='absolute hidden sm:block right-80 bottom-24'
+                    src='/assets/double-quotes.png'
+                  />
+                  <img src='/assets/woop-white2.png' />
+                </div>
+                <div className='text-white text-left leading-9 mt-8'>
+                  In addition to the great advantage of being an open source
+                  plataform, Wazuh is also easy to deploy, and its multiple
+                  capabilities have allowed us to achieve our goal with security
+                  al Woop. Wazuh is a unique tool ans it's perfect for startups
+                  like Woop that are looking for top security at a competitive
+                  cost.
+                </div>
+                <div className='text-white text-left mt-9'>
+                  Haithem Souala, Site Reliability Engineer
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        {/* <SwiperSlide>
           <div className=' flex justify-center justify-items-center items-center'>
             <div className=' font-manrope flex flex-col justify-center items-center'>
               <div className='rou rounded-2xl w-4/5 bg-Primary p-28'>
@@ -74,7 +100,7 @@ export default function Customers() {
               </div>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

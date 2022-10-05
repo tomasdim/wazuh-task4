@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className='flex items-center align-middle '>
           <img src='/assets/wazuh-log.svg'></img>
         </div>
-        <div className='flex items-center justify-end w-full'>
+        <div className='hidden sm:flex items-center justify-end w-full'>
           <div className='px-2 hover:text-[#3585F9] hover:cursor-pointer'>
             Platform
           </div>

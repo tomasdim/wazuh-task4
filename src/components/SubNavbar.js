@@ -6,7 +6,7 @@ import { MdPeopleAlt } from 'react-icons/md';
 
 const SubNavbar = () => {
   return (
-    <div className='bg-[#f5f6f8] flex justify-end font-manrope'>
+    <div className='bg-[#f5f6f8] sm:flex justify-end font-manrope hidden'>
       <div className='flex mr-16 justify-evenly w-full max-w-2xl my-3 items-center '>
         <div className='hover:text-[#3585F9] text-DarkestShade hover:cursor-pointer text-[15px] hover:underline'>
           Community

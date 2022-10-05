@@ -52,7 +52,7 @@ const EndPoints = () => {
           on-premise data centers.
         </h2>
       </div>
-      <div className='mx-8 flex gap-10 mt-8 mb-16'>
+      <div className='mx-8 flex-col sm:flex-row flex gap-10 mt-8 mb-16'>
         {DataEndPoints.map((data) => (
           <SingleEndPoint
             image={data.image}
