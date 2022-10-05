@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/wazuh-task4/static/css/main.6c5399c4.css",
+    "main.js": "/wazuh-task4/static/js/main.cf11fb81.js",
+    "static/media/XDR.png": "/wazuh-task4/static/media/XDR.c530e2059082db43bc5d.png",
+    "static/media/Cloud.png": "/wazuh-task4/static/media/Cloud.83826edeeb3aebc2b040.png",
+    "static/media/Home-slide-BG.png": "/wazuh-task4/static/media/Home-slide-BG.547019438987b68d7cd7.png",
+    "index.html": "/wazuh-task4/index.html",
+    "main.6c5399c4.css.map": "/wazuh-task4/static/css/main.6c5399c4.css.map",
+    "main.cf11fb81.js.map": "/wazuh-task4/static/js/main.cf11fb81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c5399c4.css",
+    "static/js/main.cf11fb81.js"
+  ]
+}
