@@ -5,7 +5,7 @@ const SingleEndPoint = (props) => {
     <div className='flex items-center justify-center mt-16'>
       <div className='flex flex-col text-start rounded-md border-b-8 border-b-Primary justify-between w-60 h-80 bg-LightestShade relative'>
         <div className='w-16 rounded-full absolute right-[88px] bottom-[290px] bg-LightestShade'>
-          <img src={props.image}></img>
+          <img alt='props' src={props.image}></img>
         </div>
         <div className='flex flex-col align-center'>
           <h1 className='text-center text-xl font-semibold mt-10'>

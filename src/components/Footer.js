@@ -3,12 +3,13 @@ import { AiOutlineTwitter, AiFillGithub, AiOutlineRight } from 'react-icons/ai';
 import { FaLinkedinIn, FaSlack } from 'react-icons/fa';
 import { GrReddit } from 'react-icons/gr';
 import { MdPeopleAlt } from 'react-icons/md';
+import wazuh from '../assets/wazuh-log2.svg';
 
 const Footer = () => {
   return (
     <div className='bg-black text-white w-full sm:h-[350px]'>
       <div className='h-[40%] pl-5 sm:pl-[168px] pt-16'>
-        <img src='/assets/wazuh-log2.svg'></img>
+        <img src={wazuh} alt='wazuh logo'></img>
       </div>
       <div className='h-2/5 pb-5 border-b border-b-gray-500 flex flex-col pl-5 sm:pl-0 pt-4 sm:pt-0 sm:flex-row justify-center'>
         <div className='flex flex-col w-[15%] h-4/5 justify-around'>

@@ -1,11 +1,12 @@
 import React from 'react';
+import wazuhlogo from '../assets/wazuh-log.svg';
 
 const Navbar = () => {
   return (
     <div className='flex items-center justify-center h-20 mx-20 font-manrope'>
       <div className='w-full flex'>
         <div className='flex items-center align-middle '>
-          <img src='/assets/wazuh-log.svg'></img>
+          <img src={wazuhlogo} alt='wazuh-logo'></img>
         </div>
         <div className='hidden sm:flex items-center justify-end w-full'>
           <div className='px-2 hover:text-[#3585F9] hover:cursor-pointer'>

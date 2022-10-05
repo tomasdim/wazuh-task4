@@ -4,7 +4,7 @@ import SingleEndPoint from './SingleEndPoint';
 const DataEndPoints = [
   {
     id: 1,
-    image: '/assets/Endpoint Security@4x.png',
+    image: 'https://i.imgur.com/NQm3lN5.png',
     title: 'Endpoint Security',
     char1: 'Configuration Assessment',
     char2: 'Endpoint Detection & Response',
@@ -12,7 +12,7 @@ const DataEndPoints = [
   },
   {
     id: 2,
-    image: '/assets/Threat Intelligence@4x.png',
+    image: 'https://i.imgur.com/tn6YyRL.png',
     title: 'Threat Intelligence',
     char1: 'Threat Hunting',
     char2: 'IT Hyigiene',
@@ -20,7 +20,7 @@ const DataEndPoints = [
   },
   {
     id: 3,
-    image: '/assets/Security Ops@4x.png',
+    image: 'https://i.imgur.com/3k0N1GN.png',
     title: 'Security Operations',
     char1: 'Log Data Analysis',
     char2: 'Malware Detection',
@@ -28,7 +28,7 @@ const DataEndPoints = [
   },
   {
     id: 4,
-    image: '/assets/Cloud Security@4x.png',
+    image: 'https://i.imgur.com/39b3lpa.png',
     title: 'Cloud Security',
     char1: 'Posture Management',
     char2: 'Workload Protection',

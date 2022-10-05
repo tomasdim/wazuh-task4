@@ -3,6 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import doublequotes from '../assets/double-quotes.png';
+import groupon from '../assets/groupon-white.png';
+import woop from '../assets/woop-white2.png';
 
 export default function Customers() {
   return (
@@ -32,9 +35,10 @@ export default function Customers() {
                 <div>
                   <img
                     className='absolute hidden sm:block right-80 bottom-24'
-                    src='/assets/double-quotes.png'
+                    src={doublequotes}
+                    alt='double-quotes'
                   />
-                  <img src='/assets/groupon-white.png' />
+                  <img alt='groupon-logo' src={groupon} />
                 </div>
                 <div className='text-white text-left leading-9 mt-8'>
                   We found in Wazuh the most complete security plataform. We
@@ -58,9 +62,10 @@ export default function Customers() {
                 <div className='flex justify-center sm:block sm:justify-start'>
                   <img
                     className='absolute hidden sm:block right-80 bottom-24'
-                    src='/assets/double-quotes.png'
+                    src={doublequotes}
+                    alt='double-quotes'
                   />
-                  <img src='/assets/woop-white2.png' />
+                  <img alt='woop logo' src={woop} />
                 </div>
                 <div className='text-white text-left leading-9 mt-8'>
                   In addition to the great advantage of being an open source
